@@ -14,7 +14,6 @@ const Card = () => {
 
 	function waet(evt) {
 		let saves = array.filter((e) => e.text === evt);
-		console.log(weather);
 		return setweather([...weather, ...saves]);
 	}
 
