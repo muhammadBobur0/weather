@@ -64,6 +64,7 @@ const Card = () => {
 					))}
 			</div>
 			<div className='save'>
+				{doms.length}
 				{doms.length && (
 					<>
 						<div className='div'>
